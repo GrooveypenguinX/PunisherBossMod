@@ -1,0 +1,17 @@
+{
+	"punisher_bag": {
+	"Name": "Punisher Duffelbag",
+	"ShortName": "Punisher Duffelbag",
+	"Description": "Frank Castle's \"Punisher\" duffelbag."
+	},
+	"punisher_slick": {
+	"Name": "Punisher Slick",
+	"ShortName": "Punisher Slick",
+	"Description": "Frank Castle's \"Punisher\" Slick Armor."
+	},
+	"punisher_rig": {
+	"Name": "Punisher Rig",
+	"ShortName": "Punisher Rig",
+	"Description": "Frank Castle's \"Punisher\" Chest Rig."
+	}
+}

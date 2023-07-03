@@ -1,0 +1,10 @@
+{
+	"AddVoicesToBots": {
+		"bosspunisher": {
+			"ReplaceDefaultOnes": true,
+			"AddFollowingVoices": [
+			"Punisher_1"
+			]
+		}
+	}
+}

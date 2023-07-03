@@ -1,0 +1,14 @@
+{
+	"name": "Punisher Voice",
+	"author": "GrooveypenguinX.basedonJUSTNUSTALKERVoices",
+	"version": "0.6.9",
+	"license": "Unlicense",
+	"main": "src/mod.js",
+	"akiVersion": "3.5.x",
+	"isBundleMod": true,
+	"modDependencies": {
+        "JustNUCore": "1.1.0",
+		"PunisherGear": "0.6.9",
+		"zPunisherBoss": "0.6.9"
+    }
+}
