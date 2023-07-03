@@ -4,9 +4,12 @@ A mod for SPT-AKI that adds Frank Castle "The Punisher" to the game as a new bos
 This mod has one hard requirement, and two soft requirements.
 
 Hard Requirement:
+
 JustNU Core:  https://hub.sp-tarkov.com/files/file/378-justnu-core/
 
 - Without JustNU Core the Punisher's gear will not be added.
+
+
 
 Soft Requirements:
 
@@ -15,6 +18,7 @@ KRISS Vector .308: https://hub.sp-tarkov.com/files/file/1160-kriss-vector-308-as
 Benelli M4 Super 90 [M1014]: https://hub.sp-tarkov.com/files/file/245-benelli-m4-super-90-m1014/
 
 - The Punisher by default has a loadout with the Vector .308 and the Benelli M1014. The reason these are listed as "soft requirements" is because I've included an optional folder to revert Punisher to basegame weapons, just in case you're a Jabroni who doesn't want cool guns in your game.
+
 
 
 Installation Instructions:
