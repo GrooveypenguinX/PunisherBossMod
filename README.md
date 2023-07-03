@@ -25,11 +25,13 @@ Installation Instructions:
 
 3. Install KRISS Vector .308 and Benelli M4 Super 90 [M1014] from the SPT-HUB (see links above)
 
-   3a. If you choose to NOT use the modded guns, see step 4a.
+      3a. If you choose to NOT use the modded guns, see step 4a.
 
 4. Drag the users and Bepinex folders to your main SPT install location. If you did everything right you should have 4 mods in your users/mods folder (PunisherHead, PunisherGear, zPunisherBoss and zzPunisherVoice), and three new .DLL's in your Bepinex folder, two plugins in BepinEx/Plugins (PunisherVoicePatch.dll and PunisherBoss.dll) and one in your BepinEx/patchers folder (PunisherBossPreloader.dll)
 
-    4a. If you choose to NOT use the modded guns, open the OPTIONAL_NO_MODDED_GUNS folder and drag the users folder into your main SPT install location and override the files. This is replaceing the package.json to not require the new guns, and changing the bosspunisher.json to a new loadout.
+       4a. If you choose to NOT use the modded guns, open the OPTIONAL_NO_MODDED_GUNS folder and drag the users folder into your main SPT install location and override the files. This is replaceing the package.json to not             require the new guns, and changing the bosspunisher.json to a new loadout.
+
+
 
 That's it! As long as you have the requirements, you should now have The Punisher installed and ready to roll. 
 
