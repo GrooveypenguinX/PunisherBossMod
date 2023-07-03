@@ -29,7 +29,7 @@ Installation Instructions:
 
 4. Drag the users and Bepinex folders to your main SPT install location. If you did everything right you should have 4 mods in your users/mods folder (PunisherHead, PunisherGear, zPunisherBoss and zzPunisherVoice), and three new .DLL's in your Bepinex folder, two plugins in BepinEx/Plugins (PunisherVoicePatch.dll and PunisherBoss.dll) and one in your BepinEx/patchers folder (PunisherBossPreloader.dll)
 
-       4a. If you choose to NOT use the modded guns, open the OPTIONAL_NO_MODDED_GUNS folder and drag the users folder into your main SPT install location and override the files. This is replaceing the package.json to not             require the new guns, and changing the bosspunisher.json to a new loadout.
+      4a. If you choose to NOT use the modded guns, open the OPTIONAL_NO_MODDED_GUNS folder and drag the users folder into your main SPT install location and override the files. This is replaceing the package.json to not            require the new guns, and changing the bosspunisher.json to a new loadout.
 
 
 
