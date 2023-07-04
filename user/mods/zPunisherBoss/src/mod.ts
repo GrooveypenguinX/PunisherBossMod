@@ -107,17 +107,20 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
                 //console.log("Progress file exists, loading...");
                 PunisherBossMod.progressRecord = PunisherBossMod.readFile(progressFilePath);
       
-                if (PunisherBossMod.progressRecord && PunisherBossMod.progressRecord.actualPunisherChance > 100) {
+                if (PunisherBossMod.progressRecord && PunisherBossMod.progressRecord.actualPunisherChance > 100) 
+                {
                     //console.log("Loaded spawn chance exceeds the maximum limit, setting to 100.");
                     PunisherBossMod.progressRecord.actualPunisherChance = 100;
-                  } else if (PunisherBossMod.progressRecord && PunisherBossMod.progressRecord.actualPunisherChance < 1) {
+                }
+                else if (PunisherBossMod.progressRecord && PunisherBossMod.progressRecord.actualPunisherChance < 1) 
+                {
                     //console.log("Loaded spawn chance is less than 1, setting to 1.");
                     PunisherBossMod.progressRecord.actualPunisherChance = 1;
-                  }
+                }
                   
-                  // Save the updated progress record to the file
-                  PunisherBossMod.saveToFile(PunisherBossMod.progressRecord, progressFilePath);
-                  //console.log("Progress file updated.");                  
+                // Save the updated progress record to the file
+                PunisherBossMod.saveToFile(PunisherBossMod.progressRecord, progressFilePath);
+                //console.log("Progress file updated.");                  
       
                 //console.log("Progress file loaded:", PunisherBossMod.progressRecord);
             }
@@ -133,31 +136,37 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
       
         PunisherBossMod.setBossChanceFromProgressFile();
     }
-    static setBossChanceFromProgressFile() {
-    try {
+    static setBossChanceFromProgressFile() 
+    {
         const progressFilePath = `${PunisherBossMod.modFolder}/progress.json`;
 
-        if (!fs.existsSync(progressFilePath)) {
-        console.log("Progress file does not exist. This is normal.");
-        return;
-        }
 
-        const progressData = JSON.parse(fs.readFileSync(progressFilePath, "utf8"));
-        const actualPunisherChance = progressData?.actualPunisherChance ?? 10;
+        let actualPunisherChance = 1; // Default value if progress.json is not found
+
+        try 
+        {
+            const progressData = JSON.parse(fs.readFileSync(progressFilePath, "utf8"));
+            actualPunisherChance = progressData?.actualPunisherChance ?? 1;
+        }
+        catch (error) 
+        {
+            console.log(`Error reading progress.json: ${error.message}`);
+        }
+    
 
         const bosspunisherSpawn = {
-        BossChance: actualPunisherChance,
-        BossDifficult: "impossible",
-        BossEscortAmount: "2",
-        BossEscortDifficult: "impossible",
-        BossEscortType: "exUsec",
-        BossName: "bosspunisher",
-        BossPlayer: false,
-        BossZone: "?",
-        RandomTimeSpawn: false,
-        Time: -1,
-        TriggerId: "",
-        TriggerName: "",
+            BossChance: actualPunisherChance,
+            BossDifficult: "impossible",
+            BossEscortAmount: "2",
+            BossEscortDifficult: "impossible",
+            BossEscortType: "exUsec",
+            BossName: "bosspunisher",
+            BossPlayer: false,
+            BossZone: "?",
+            RandomTimeSpawn: false,
+            Time: -1,
+            TriggerId: "",
+            TriggerName: ""
         };
 
         console.log("Punisher BossChance:", bosspunisherSpawn.BossChance);
@@ -167,22 +176,22 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
         const botConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
         const batch: any = botConfig.presetBatch;
         const stupidfuckingbotsettings = {
-        "nvgIsActiveChanceDayPercent": 10,
-        "nvgIsActiveChanceNightPercent": 90,
-        "faceShieldIsActiveChancePercent": 100,
-        "lightIsActiveDayChancePercent": 25,
-        "lightIsActiveNightChancePercent": 90,
-        "weaponSightWhitelist": {},
-        "laserIsActiveChancePercent": 85,
-        "weightingAdjustments": [],
-        "randomisation": [],
-        "blacklist": [],
-        "whitelist": [],
-        "clothing": [],
-        "weaponModLimits": {
-            "scopeLimit": 1,
-            "lightLaserLimit": 1,
-        },
+            "nvgIsActiveChanceDayPercent": 10,
+            "nvgIsActiveChanceNightPercent": 90,
+            "faceShieldIsActiveChancePercent": 100,
+            "lightIsActiveDayChancePercent": 25,
+            "lightIsActiveNightChancePercent": 90,
+            "weaponSightWhitelist": {},
+            "laserIsActiveChancePercent": 85,
+            "weightingAdjustments": [],
+            "randomisation": [],
+            "blacklist": [],
+            "whitelist": [],
+            "clothing": [],
+            "weaponModLimits": {
+                "scopeLimit": 1,
+                "lightLaserLimit": 1
+            }
         };
         botConfig.equipment["bosspunisher"] = stupidfuckingbotsettings;
         batch.bosspunisher = 1;
@@ -190,25 +199,22 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
         botConfig.itemSpawnLimits["bosspunisher"] = {};
         tables.bots.types["bosspunisher"] = jsonUtil.deserialize(jsonUtil.serialize(bosspunisher));
 
-        for (const location of Object.values(tables.locations)) {
-        if (location.base) {
-            const zones = location.base.Id == "factory4_night" ? tables.locations.factory4_day.base.OpenZones : location.base.OpenZones;
-            if (zones.length == 0) {
-            continue;
-            }
+        for (const location of Object.values(tables.locations)) 
+        {
+            if (location.base) 
+            {
+                const zones = location.base.Id == "factory4_night" ? tables.locations.factory4_day.base.OpenZones : location.base.OpenZones;
+                if (zones.length == 0) 
+                {
+                    continue;
+                }
 
-            location.base.BossLocationSpawn.push(bosspunisherSpawn);
+                location.base.BossLocationSpawn.push(bosspunisherSpawn);
             //console.log(`Added The Punisher to ${location.base.Id}`);
+            }
         }
-        }
-    } catch (error) {
-        if (error.code === "ENOENT") {
-        console.log("Progress file not present. This is Normal.");
-        } else {
-        console.error("An error occurred in setBossChanceFromProgressFile:", error);
-        }
-    }
-    }
+    } 
+    
 
       
 
@@ -344,7 +350,7 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
             {
                 punisherSpawnChance = 100; // Set the spawn chance to the maximum limit
             }
-			if (punisherSpawnChance < 1) 
+            if (punisherSpawnChance < 1) 
             {
                 punisherSpawnChance = 1; // Set the spawn chance to the minimum limit
             }
