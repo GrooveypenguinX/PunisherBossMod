@@ -7,7 +7,7 @@ Hard Requirement:
 
 JustNU Core:  https://hub.sp-tarkov.com/files/file/378-justnu-core/
 
-- Without JustNU Core the Punisher's gear will not be added.
+- Without JustNU Core the Punisher's gear will not be added and the mod will fail to load.
 
 
 
