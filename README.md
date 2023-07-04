@@ -23,17 +23,17 @@ Benelli M4 Super 90 [M1014]: https://hub.sp-tarkov.com/files/file/245-benelli-m4
 
 Installation Instructions:
 
-1. Have a working version of SPT-3.5.7 or SPT 3.5.8 (This might work for earlier version but for any early version there is NO GUARUNTEE AND IT WILL NOT BE SUPPORTED. Use the latest versions guys, it's not rocket science to update your game lol).
+1. Have a working version of SPT-3.5.7 or SPT 3.5.8 This might work for earlier version but for any early version there is NO GUARUNTEE and it WILL NOT BE SUPPORTED. Use the latest versions guys, it's not rocket science to update your game lol.
 
-2. Install JustNu Core from the SPT-HUB (see link above)
+2. Install JustNU Core from the SPT-HUB (see link above)
 
 3. Install KRISS Vector .308 and Benelli M4 Super 90 [M1014] from the SPT-HUB (see links above)
 
-      3a. If you choose to NOT use the modded guns, see step 4a.
+      3a. If you opt to NOT use the modded guns, see step 4a.
 
-4. Drag the users and Bepinex folders to your main SPT install location. If you did everything right you should have 4 mods in your users/mods folder (PunisherHead, PunisherGear, zPunisherBoss and zzPunisherVoice), and three new .DLL's in your Bepinex folder, two plugins in BepinEx/Plugins (PunisherVoicePatch.dll and PunisherBoss.dll) and one in your BepinEx/patchers folder (PunisherBossPreloader.dll)
+4. Drag the users and Bepinex folders from the downloaded zip to your main SPT install location. If you did everything right you should have 4 mods in your users/mods folder (PunisherHead, PunisherGear, zPunisherBoss and zzPunisherVoice), and three new .DLL's in your Bepinex folders: two plugins in BepinEx/Plugins (PunisherVoicePatch.dll and PunisherBoss.dll) and one in your BepinEx/patchers folder (PunisherBossPreloader.dll)
 
-      4a. If you choose to NOT use the modded guns, open the OPTIONAL_NO_MODDED_GUNS folder and drag the users folder into your main SPT install location and override the files. This is replaceing the package.json to not            require the new guns, and changing the bosspunisher.json to a new loadout.
+      4a. If you opt to NOT use the modded guns, open the OPTIONAL_NO_MODDED_GUNZ folder and drag the users folder into your main SPT install location and override the files. This is replaceing the package.json to not            require the new guns, and changing the bosspunisher.json to a new loadout.
 
 
 
