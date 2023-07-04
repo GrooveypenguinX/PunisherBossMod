@@ -1,0 +1,35 @@
+{
+    "_id": "punisherhead",
+    "_name": "punisherhead",
+    "_parent": "5cc085e214c02e000c6bea67",
+    "_type": "Item",
+    "_props": {
+      "Name": "Jon Bernthal",
+      "ShortName": "Jon Bernthal",
+      "Description": "Are you really reading this stupid fucking Description",
+      "Side": [
+        "Usec",
+        "Bear"
+      ],
+      "BodyPart": "Head",
+      "Prefab": {
+        "path": "heads/punisherhead.servph",
+        "rcid": ""
+      },
+      "WatchPrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "IntegratedArmorVest": false,
+      "WatchPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "WatchRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  }

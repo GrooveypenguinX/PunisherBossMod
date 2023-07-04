@@ -1,0 +1,17 @@
+{
+  "punisher_bag": {
+    "BaseItemID": "59e763f286f7742ee57895da",
+    "BundlePath": "gear/punisher_bag.bundle",
+    "LootWeigthMult": 0.0
+  },
+  "punisher_slick": {
+    "BaseItemID": "5e4abb5086f77406975c9342",
+    "BundlePath": "gear/punisher_slick.bundle",
+    "LootWeigthMult": 0.0
+  },
+    "punisher_rig": {
+    "BaseItemID": "5c0e9f2c86f77432297fe0a3",
+    "BundlePath": "gear/punisher_rig.bundle",
+    "LootWeigthMult": 0.0
+  }
+}
