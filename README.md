@@ -40,6 +40,17 @@ Installation Instructions:
 That's it! As long as you have the requirements, you should now have The Punisher installed and ready to roll. 
 
 
+To remove this mod FULLY:
+- Delete all four folder in users/mods (PunisherGear, PunisherHead, zPunisherBoss and zzPunisherVoice)
+- Delete PunisherBossPreloaded.dll in BepinEx/patchers
+- Delete PunisherBossMod.dll in BepinEx/Plugins
+- Using a program like notepad++, open your profile .json in user/Profiles.
+- Ctrl+H to open the replace menu (or open the replace menu manually if you're using a different program), and search for any instance of bosspunisher and replace with bosskilla.
+
+That should do it!
+
+
+
 OPTIONAL CONFIGS:
 
 PunisherHead: If you wish to use the JonBernthal head on the player, open the config/config.json and change addheadtoplayer to true.
