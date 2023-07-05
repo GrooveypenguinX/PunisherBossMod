@@ -44,6 +44,9 @@ OPTIONAL CONFIGS:
 
 PunisherHead: If you wish to use the JonBernthal head on the player, open the config/config.json and change addheadtoplayer to true.
 
+PunisherGear: If you wish to add The Punisher gear to traders, open the config/config.json and change EnableTradeOffers to true.
+- WARNING: AddToBots is leftover from old code. It currently does nothing and will be removed in the next update. 
+
 zzPunisherVoice: If you wish to use the Punisher voice lines on the player, open the config/playervoiceconfig.json and change AddVoiceToPlayer to true. 
 
 - WARNING: This voice pack is very incomplete, a lot of player lines are missing/not used, and a few lines are repeated so the punisher boss doesn't spam the same exact line every time.
