@@ -79,6 +79,7 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
                             //{
                             //    console.log("Victims or Aggressor array is not present in the profile.");
                             //}
+                            PunisherBossMod.removeBossSpawnFromMaps();
                             PunisherBossMod.onRaidSave(url, info, sessionId, output);
                             PunisherBossMod.setBossChanceFromProgressFile();
                             return output;
@@ -133,9 +134,49 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
         {
             console.error("An error occurred in postDBLoad:", error);
         }
-      
+
+        PunisherBossMod.removeBossSpawnFromMaps();
         PunisherBossMod.setBossChanceFromProgressFile();
     }
+
+    static removeBossSpawnFromMaps() 
+    {
+        const tables = container.resolve<DatabaseServer>("DatabaseServer").getTables();
+        const removedLocations = [];
+    
+        for (const location of Object.values(tables.locations)) 
+        {
+            if (location.base) 
+            {
+                const removedSpawns = location.base.BossLocationSpawn.filter(spawn => spawn.BossName === "bosspunisher");
+                location.base.BossLocationSpawn = location.base.BossLocationSpawn.filter(spawn => spawn.BossName !== "bosspunisher");
+    
+                if (removedSpawns.length > 0) 
+                {
+                    removedLocations.push({
+                        map: location.base.Id,
+                        zones: removedSpawns.map(spawn => spawn.BossZone)
+                    });
+                }
+            }
+        }
+    
+        if (removedLocations.length > 0) 
+        {
+            console.log("Removed bosspunisherSpawn from the following maps and zones:");
+            for (const removedLocation of removedLocations) 
+            {
+                const { map, zones } = removedLocation;
+                console.log(`- Map: ${map}, Zones: ${zones.join(", ")}`);
+            }
+        }
+        else 
+        {
+            console.log("No bosspunisherSpawn found in any maps and zones.");
+        }
+    }
+    
+
     static setBossChanceFromProgressFile() 
     {
         const progressFilePath = `${PunisherBossMod.modFolder}/progress.json`;
@@ -150,11 +191,11 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
         }
         catch (error) 
         {
-            console.log(`Error reading progress.json: ${error.message}`);
+            console.log("A Progress File will be generated on your next raid");
         }
     
 
-        const bosspunisherSpawn = {
+        let bosspunisherSpawn: BossLocationSpawn = {
             BossChance: actualPunisherChance,
             BossDifficult: "impossible",
             BossEscortAmount: "2",
@@ -203,16 +244,36 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
         {
             if (location.base) 
             {
-                const zones = location.base.Id == "factory4_night" ? tables.locations.factory4_day.base.OpenZones : location.base.OpenZones;
-                if (zones.length == 0) 
+                const zonesString = location.base.Id === "factory4_night" ? tables.locations.factory4_day.base.OpenZones : location.base.OpenZones;
+                if (!zonesString) 
                 {
                     continue;
                 }
-
+        
+                const foundOpenZones = zonesString
+                    .split(",")
+                    .map(zone => zone.trim())
+                    .filter(zone => zone && !zone.includes("Snipe"));
+        
+                if (foundOpenZones.length === 0) 
+                {
+                    continue;
+                }
+        
+                const randomIndex = Math.floor(Math.random() * foundOpenZones.length);
+                const randomZone = foundOpenZones[randomIndex];
+        
+                bosspunisherSpawn = {
+                    ...bosspunisherSpawn,
+                    BossZone: randomZone
+                };
+        
                 location.base.BossLocationSpawn.push(bosspunisherSpawn);
-            //console.log(`Added The Punisher to ${location.base.Id}`);
+        
+                console.log(`Added The Punisher to map: ${location.base.Id}, zone: ${randomZone}`);
             }
         }
+        
     } 
     
 
@@ -266,6 +327,10 @@ class PunisherBossMod implements IPreAkiLoadMod, IPostDBLoadMod
 	
     static onRaidSave(url: string, info: any, sessionId: string, output: string) 
     {
+        if (PunisherBossMod.progressRecord && info.exit === "Left") 
+        {
+            return;
+        }
         try 
         {
             //console.log("onRaidSave");
