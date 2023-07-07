@@ -7,6 +7,6 @@
 	"akiVersion": "3.5.x",
 	"isBundleMod": true,
 	"modDependencies": {
-		"zPunisherBoss": "0.6.9"
+		"PunisherBoss": "0.6.9"
     }
 }
