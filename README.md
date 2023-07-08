@@ -31,7 +31,7 @@ Installation Instructions:
 
       3a. If you opt to NOT use the modded guns, see step 4a.
 
-4. Drag the users and Bepinex folders from the downloaded zip to your main SPT install location. If you did everything right you should have 4 mods in your users/mods folder (PunisherHead, PunisherGear, zPunisherBoss and zzPunisherVoice), and three new .DLL's in your Bepinex folders: two plugins in BepinEx/Plugins (PunisherVoicePatch.dll and PunisherBoss.dll) and one in your BepinEx/patchers folder (PunisherBossPreloader.dll)
+4. Drag the users and Bepinex folders from the downloaded zip to your main SPT install location. If you did everything right you should have 4 mods in your users/mods folder (PunisherHead, PunisherGear, PunisherBoss and zzPunisherVoice), and three new .DLL's in your Bepinex folders: two plugins in BepinEx/Plugins (PunisherVoicePatch.dll and PunisherBoss.dll) and one in your BepinEx/patchers folder (PunisherBossPreloader.dll)
 
       4a. If you opt to NOT use the modded guns, open the OPTIONAL_NO_MODDED_GUNZ folder and drag the users folder into your main SPT install location and override the files. This is replaceing the package.json to not            require the new guns, and changing the bosspunisher.json to a new loadout.
 
@@ -43,11 +43,10 @@ That's it! As long as you have the requirements, you should now have The Punishe
 Uninstall Instructions:
 
 To remove this mod FULLY:
-1. Delete all four folder in users/mods (PunisherGear, PunisherHead, zPunisherBoss and zzPunisherVoice)
+1. Delete all four folder in users/mods (PunisherGear, PunisherHead, PunisherBoss and zzPunisherVoice)
 2. Delete PunisherBossPreloaded.dll in BepinEx/patchers
 3. Delete PunisherBossMod.dll in BepinEx/Plugins
-4. Using a program like notepad++, open your profile .json in user/Profiles.
-5. Ctrl+H to open the replace menu (or open the replace menu manually if you're using a different program), and search for any instance of bosspunisher and replace with bosskilla.
+4. Follow the instructions for the profile cleaner, listed in the "PROFILE CLEANER README.txt" located in PunisherBoss/profile cleaner - WIP/PROFILE CLEANER README.txt
 
 That should do it!
 
