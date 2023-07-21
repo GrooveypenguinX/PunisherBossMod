@@ -1,0 +1,14 @@
+{
+	"manifest": [
+		{
+			"key": "PunisherVoice/Audio/punisher_1_sound.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "PunisherVoice/Voices/punisher_1_voice.bundle",
+			"dependencyKeys": [
+				"PunisherVoice/Audio/punisher_1_sound.bundle"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"punisher_bag": {
+	"Name": "Punisher Duffelbag",
+	"ShortName": "Punisher Duffelbag",
+	"Description": "Frank Castle's \"Punisher\" duffelbag."
+	},
+	"punisher_slick": {
+	"Name": "Punisher Slick",
+	"ShortName": "Punisher Slick",
+	"Description": "Frank Castle's \"Punisher\" Slick Armor."
+	},
+	"punisher_rig": {
+	"Name": "Punisher Rig",
+	"ShortName": "Punisher Rig",
+	"Description": "Frank Castle's \"Punisher\" Chest Rig."
+	},
+	"punisher_slick_AE": {
+	"Name": "Punisher Slick AE",
+	"ShortName": "Punisher Slick",
+	"Description": "A \"Altered\" version of Frank Castle's \"Punisher\" Slick Armor."
+	},
+	"punisher_mask": {
+	"Name": "Punisher Mask AE",
+	"ShortName": "Punisher Mask",
+	"Description": "A \"Altered\" version of Frank Castle's \"Punisher\" Mask."
+	},
+	"punisher_slick_2": {
+	"Name": "Punisher Slick",
+	"ShortName": "Punisher Rig",
+	"Description": "Frank Castle's \"Punisher\" Slick Armor."
+	}
+}

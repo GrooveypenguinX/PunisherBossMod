@@ -1,0 +1,12 @@
+{
+	"manifest": [
+		{
+			"key": "heads/punisherhead.servph",
+			"dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        }
+	]
+}

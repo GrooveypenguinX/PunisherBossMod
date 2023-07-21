@@ -1,0 +1,53 @@
+{
+	"manifest": [
+		{
+			"key": "gear/punisher_bag.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "gear/punisher_slick.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "gear/punisher_rig.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "gear/punisher_slick_AE.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "gear/punisher_mask.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "gear/punisher_slick_2.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		}
+
+	]
+}
