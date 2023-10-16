@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jakec\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jakec\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj": {
+      "version": "0.6.9",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jakec\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+        "projectName": "PunisherBossModPreloader",
+        "projectPath": "C:\\Users\\jakec\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+        "packagesPath": "C:\\Users\\jakec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jakec\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jakec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
