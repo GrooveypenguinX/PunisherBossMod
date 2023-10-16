@@ -16,8 +16,9 @@ Uninstall Instructions:
 To remove this mod FULLY:
 1. Delete all four folder in users/mods (PunisherGear, PunisherHead, PunisherBoss and zzPunisherVoice)
 2. Delete PunisherBossPreloaded.dll in BepinEx/patchers
-3. Delete PunisherBossMod.dll in BepinEx/Plugins
-4. Remove all references to punisher in your profile .json
+3. Delete PunisherBossMod.dll in BepinEx/plugins
+4. Delete PunisherVoicePatch.dll in BepinEx/plugins
+5. Remove all references to punisher in your profile .json
 
 That should do it!
 
