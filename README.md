@@ -20,6 +20,10 @@ To remove this mod FULLY:
 4. Delete PunisherVoicePatch.dll in BepinEx/plugins
 5. Remove all references to punisher in your profile .json
 
+IF USING SWAG/DONUTS:
+6. Set CustomBosses: punisher to false in SWAG/config/bossconfig.json
+7. Remove punisher from the _boss patterns, or replace the patterns with default SWAG patterns (redownload swag and replace the patterns folder with overwrite)
+
 That should do it!
 
 
