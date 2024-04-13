@@ -1,0 +1,57 @@
+{
+	"sa58_magazine_retrodrum": {
+		"itemTplToClone": "5b7bef9c5acfc43d102852ec",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponSA58Obrez/sa58_magazine_retrodrum.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "Black",
+			"Weight": 0.10,
+			"Width": 2,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.08,
+			"Ergonomics": -1
+		},
+		"locales": {
+			"en": {
+				"name": "Heritage Ordnance 7.62x51mm 50-Round FAL Retro Drum Magazine",
+				"shortName": "SA58",
+				"description": "A 50-round 7.62x51 retro-styled drum magazine designed for the FAL/SA-58 platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+}

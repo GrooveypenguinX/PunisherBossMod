@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PunisherBoss", "PunisherBossMod\PunisherBossMod\PunisherBoss.csproj", "{44EE2498-8E4A-4F25-B533-DE4CA48E6541}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PunisherBossModPreloader", "PunisherBossMod\PunisherBossModPreloader\PunisherBossModPreloader.csproj", "{DD7AF367-1F27-4089-9BD5-F28321D87A32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PunisherVoicePatch", "PunisherVoicePatch\PunisherVoicePatch\PunisherVoicePatch.csproj", "{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44EE2498-8E4A-4F25-B533-DE4CA48E6541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EE2498-8E4A-4F25-B533-DE4CA48E6541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EE2498-8E4A-4F25-B533-DE4CA48E6541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EE2498-8E4A-4F25-B533-DE4CA48E6541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7AF367-1F27-4089-9BD5-F28321D87A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7AF367-1F27-4089-9BD5-F28321D87A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7AF367-1F27-4089-9BD5-F28321D87A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7AF367-1F27-4089-9BD5-F28321D87A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25178B25-EECC-4694-B50E-F57314338A32}
+	EndGlobalSection
+EndGlobal

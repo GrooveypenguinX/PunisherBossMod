@@ -1,0 +1,546 @@
+{
+	"SerbuShotgun": {
+		"itemTplToClone": "5a7828548dc32e5a9c28b516",
+		"parentId": "5447b6094bdc2dc3278b4567",
+		"handbookParentId": "5b5f794b86f77409407a7f92",
+		"overrideProperties": {
+			"AdjustCollimatorsToTrajectory": false,
+			"AimPlane": 0.112,
+			"AimSensitivity": 0.65,
+			"AllowFeed": true,
+			"AllowJam": true,
+			"AllowMisfire": true,
+			"AllowOverheat": true,
+			"AllowSlide": true,
+			"AnimationVariantsNumber": 0,
+			"BackgroundColor": "black",
+			"BaseMalfunctionChance": 0.271975,
+			"BoltAction": false,
+			"BurstShotsCount": 3,
+			"CameraRecoil": 0.144,
+			"CameraSnap": 2.6,
+			"CanPutIntoDuringTheRaid": true,
+			"CanQueueSecondShot": false,
+			"CanRequireOnRagfair": false,
+			"CanSellOnRagfair": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"CenterOfImpact": 0.4,
+			"Chambers": [
+				{
+					"_id": "5a7828548dc32e5a9c28b51d",
+					"_mergeSlotWithChildren": false,
+					"_name": "patron_in_weapon",
+					"_parent": "5a7828548dc32e5a9c28b516",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"560d5e524bdc2d25448b4571",
+									"5d6e6772a4b936088465b17c",
+									"5d6e67fba4b9361bc73bc779",
+									"5d6e6806a4b936088465b17e",
+									"5d6e68dea4b9361bcc29e659",
+									"5d6e6911a4b9361bd5780d52",
+									"5c0d591486f7744c505b416f",
+									"58820d1224597753c90aeb13",
+									"5d6e68c4a4b9361b93413f79",
+									"5d6e68a8a4b9360b6c0d54e2",
+									"5d6e68e6a4b9361c140bcfe0",
+									"5d6e6869a4b9361c140bcfde",
+									"5d6e68b3a4b9361bca7e50b5",
+									"5d6e6891a4b9361bd473feea",
+									"5d6e689ca4b9361bc8618956",
+									"5d6e68d1a4b93622fe60e845",
+									"64b8ee384b75259c590fa89b"
+								]
+							}
+						]
+					},
+					"_proto": "55d4af244bdc2d962f8b4571",
+					"_required": false
+				}
+			],
+			"CompactHandling": true,
+			"ConflictingItems": [],
+			"Convergence": 1.8,
+			"CoolFactorGun": 4.032,
+			"CoolFactorGunMods": 1.03,
+			"Description": "weapon_remington_model_870_12g",
+			"DeviationCurve": 2.5,
+			"DeviationMax": 10,
+			"DiscardLimit": -1,
+			"DiscardingBlock": false,
+			"DoubleActionAccuracyPenalty": 1.5,
+			"DropSoundType": "Rifle",
+			"Durability": 100,
+			"DurabilityBurnRatio": 1.15,
+			"Ergonomics": 45,
+			"ExamineExperience": 4,
+			"ExamineTime": 1,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"Foldable": false,
+			"FoldedSlot": "",
+			"Grids": [],
+			"HeatFactorByShot": 5.5,
+			"HeatFactorGun": 0.99,
+			"Height": 1,
+			"HideEntrails": false,
+			"HipAccuracyRestorationDelay": 0.2,
+			"HipAccuracyRestorationSpeed": 7,
+			"HipInnaccuracyGain": 0.16,
+			"InsuranceDisabled": false,
+			"IronSightRange": 25,
+			"IsAlwaysAvailableForInsurance": false,
+			"IsBeltMachineGun": false,
+			"IsFlareGun": false,
+			"IsGrenadeLauncher": false,
+			"IsLockedafterEquip": false,
+			"IsOneoff": false,
+			"IsSpecialSlotOnly": false,
+			"IsStationaryWeapon": false,
+			"IsUnbuyable": false,
+			"IsUndiscardable": false,
+			"IsUngivable": false,
+			"IsUnremovable": false,
+			"IsUnsaleable": false,
+			"ItemSound": "weap_pump",
+			"LootExperience": 15,
+			"ManualBoltCatch": false,
+			"MaxDurability": 100,
+			"MaxRepairDegradation": 0.04,
+			"MaxRepairKitDegradation": 0.035,
+			"MergesWithChildren": true,
+			"MinRepairDegradation": 0,
+			"MinRepairKitDegradation": 0,
+			"MustBoltBeOpennedForExternalReload": false,
+			"MustBoltBeOpennedForInternalReload": false,
+			"Name": "weapon_remington_model_870_12g",
+			"NoFiremodeOnBoltcatch": false,
+			"NotShownInSlot": false,
+			"OperatingResource": 3250,
+			"QuestItem": false,
+			"QuestStashMaxCount": 0,
+			"RagFairCommissionModifier": 1,
+			"RecoilAngle": 90,
+			"RecoilCenter": {
+				"x": 0,
+				"y": -0.3,
+				"z": 0
+			},
+			"RecoilForceBack": 650,
+			"RecoilForceUp": 442,
+			"RecoilPosZMult": 1,
+			"RecolDispersion": 15,
+			"ReloadMode": "InternalMagazine",
+			"RepairComplexity": 0,
+			"RepairCost": 88,
+			"RepairSpeed": 12,
+			"Retractable": false,
+			"RotationCenter": {
+				"x": 0,
+				"y": -0.1,
+				"z": -0.03
+			},
+			"RotationCenterNoStock": {
+				"x": 0,
+				"y": -0.25,
+				"z": -0.06
+			},
+			"ShortName": "weapon_remington_model_870_12g",
+			"ShotgunDispersion": 1,
+			"SightingRange": 100,
+			"SingleFireRate": 450,
+			"SizeReduceRight": 0,
+			"StackMaxSize": 1,
+			"StackObjectsCount": 1,
+			"TacticalReloadFixation": 0.95,
+			"TacticalReloadStiffnes": {
+				"x": 0.95,
+				"y": 0.33,
+				"z": 0.95
+			},
+			"Unlootable": false,
+			"UnlootableFromSide": [],
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"Velocity": 0,
+			"Weight": 1.1,
+			"Width": 3,
+			"ammoCaliber": "Caliber12g",
+			"bEffDist": 70,
+			"bFirerate": 30,
+			"bHearDist": 1,
+			"chamberAmmoCount": 1,
+			"defAmmo": "560d5e524bdc2d25448b4571",
+			"defMagType": "5a7882dcc5856700177af662",
+			"durabSpawnMax": 75,
+			"durabSpawnMin": 25,
+			"isBoltCatch": false,
+			"isChamberLoad": true,
+			"isFastReload": false,
+			"shotgunDispersion": 20,
+			"weapClass": "shotgun",
+			"weapFireType": [
+				"single"
+			],
+			"weapUseType": "primary",
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponSerbuSuperShorty/serbushotgun.bundle",
+				"rcid": ""
+			},
+			"Slots": [
+				{
+					"_id": "BarrelSerbuShotgun",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_barrel",
+					"_parent": "SerbuShotgun",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"SerbuShotgunBarrel"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "HandguardSerbuShotgun",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_handguard",
+					"_parent": "SerbuShotgun",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"SerbuShotgunForegrip"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "MagazineSerbuShotgun",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_magazine",
+					"_parent": "SerbuShotgun",
+					"_props": {
+						"filters": [
+							{
+								"AnimationIndex": 0,
+								"Filter": [
+									"5a7882dcc5856700177af662"
+								]
+							}
+						]
+					},
+					"_proto": "55d30c394bdc2dae468b4577",
+					"_required": true
+				},
+				{
+					"_id": "StockSerbuShotgun",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_stock",
+					"_parent": "SerbuShotgun",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"SerbuShotgunPistolGrip"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "MountSerbuShotgun",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_mount",
+					"_parent": "SerbuShotgun",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5a7893c1c585673f2b5c374d",
+									"5a78948ec5856700177b1124"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Serbu Super Shorty 12Ga Shotgun",
+				"shortName": "Serbu",
+				"description": "The Serbu Super Shorty is a compact, stockless, pump-action shotgun chambered in 12-gauge."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"Holster"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+				"_encyclopedia": "SerbuShotgun",
+				"_id": "65e7e43101001ac0247a7a00",
+				"_items": [
+					{
+						"_id": "eb3b6b42dd401188f15b72a1",
+						"_tpl": "SerbuShotgun",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "94a9a1b5c7b20af5531e8eed",
+						"_tpl": "SerbuShotgunBarrel",
+						"parentId": "eb3b6b42dd401188f15b72a1",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "672b90f7e17e12363251b6a6",
+						"_tpl": "SerbuShotgunForegrip",
+						"parentId": "eb3b6b42dd401188f15b72a1",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "2eeba06f10a2027ea38a7e48",
+						"_tpl": "5a7882dcc5856700177af662",
+						"parentId": "eb3b6b42dd401188f15b72a1",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "bfa597d635f361fc08535c6c",
+						"_tpl": "SerbuShotgunPistolGrip",
+						"parentId": "eb3b6b42dd401188f15b72a1",
+						"slotId": "mod_stock"
+					}
+				],
+				"_name": "Serbu",
+				"_parent": "eb3b6b42dd401188f15b72a1",
+				"_type": "Preset"
+			}
+		]
+	},
+	"SerbuShotgunPistolGrip": {
+		"itemTplToClone": "5a788169c5856700142fdd9e",
+		"parentId": "55818a594bdc2db9688b456a",
+		"handbookParentId": "5b5f757486f774093e6cb507",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"BackgroundColor": "Black",
+			"Prefab": {
+				"path": "WeaponSerbuSuperShorty/serbupistolgrip.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.063,
+			"Width": 1,
+			"Height": 1,
+			"Ergonomics": 10,
+			"Recoil": -27
+		},
+		"locales": {
+			"en": {
+				"name": "Serbu Super Shorty Pistol Grip",
+				"shortName": "Serbu",
+				"description": "Polymer pistol grip for the Serbu Super Shorty 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18890,
+		"handbookPriceRoubles": 13440,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"SerbuShotgunForegrip": {
+		"itemTplToClone": "5a788089c5856700142fdd9c",
+		"parentId": "55818a104bdc2db9688b4569",
+		"handbookParentId": "5b5f75e486f77447ec5d7712",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponSerbuSuperShorty/serbushotgunforegrip.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"Slots": [],
+			"Width": 1,
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "Serbu Super Shorty Foregrip",
+				"shortName": "Serbu",
+				"description": "Integrated vertical foregrip for the Serbu Super Shorty 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18890,
+		"handbookPriceRoubles": 13440,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"SerbuShotgunBarrel": {
+		"itemTplToClone": "5a787f25c5856700186c4ab9",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponSerbuSuperShorty/serbubarrel.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"Slots": [],
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "Serbu Super Shorty 165mm Barrel",
+				"shortName": "Serbu",
+				"description": "A 165mm barrel for the Serbu Super Shorty 12 gauge shotgun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18890,
+		"handbookPriceRoubles": 13440,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+}

@@ -1,0 +1,592 @@
+{
+	"pm9": {
+		"itemTplToClone": "5d2f0d8048f0356c925bc3b0",
+		"parentId": "5447b5e04bdc2d62278b4567",
+		"handbookParentId": "5b5f796a86f774093f2ed3c0",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponPM9/pm9.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 1,
+			"ammoCaliber": "Caliber9x19PARA",
+			"Chambers": [],
+			"Slots": [
+				{
+					"_id": "pm9foregripslot",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_foregrip",
+					"_parent": "pm9",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"pm9grip"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "pm9magslot",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_magazine",
+					"_parent": "pm9",
+					"_props": {
+						"filters": [
+							{
+								"AnimationIndex": -1,
+								"Filter": [
+									"pm9extendedmag",
+									"pm9mag"
+								]
+							}
+						]
+					},
+					"_proto": "55d30c394bdc2dae468b4577",
+					"_required": false
+				},
+				{
+					"_id": "pm9boltslot",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_hammer",
+					"_parent": "pm9",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"pm9bolt"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "pm9barrelslot",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_barrel",
+					"_parent": "pm9",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"pm9barrel",
+									"pm9shortbarrel"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				}
+			],
+			"AllowFeed": false,
+			"AllowJam": false,
+			"AllowMisfire": false,
+			"AllowOverheat": true,
+			"AllowSlide": false,
+			"ManualBoltCatch": false,
+			"MustBoltBeOpennedForExternalReload": false,
+			"MustBoltBeOpennedForInternalReload": false,
+			"NoFiremodeOnBoltcatch": false,
+			"defAmmo": "64b7bbb74b75259c590fa897",
+			"defMagType": "pm9mag",
+			"isBoltCatch": false,
+			"isChamberLoad": true,
+			"isFastReload": true,
+			"weapClass": "smg",
+			"weapFireType": [
+				"single",
+				"fullauto"
+			],
+			"bFirerate": 1100,
+			"weapUseType": "primary"
+		},
+		"locales": {
+			"en": {
+				"name": "Minebea PM-9 9x19mm Submachine Gun",
+				"shortName": "PM-9",
+				"description": "A Japanese-made military machine pistol that utilizes a similar telescopic bolt as the Israeli Uzi, but differs in its appearance, operation, and handling."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "Minebea PM-9",
+				"Templates": [
+					"pm9"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+				"_encyclopedia": "pm9",
+				"_id": "65e7e41901001ac02471c401",
+				"_items": [
+					{
+						"_id": "ddb20e95ac828b27642b073d",
+						"_tpl": "pm9",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
+							},
+							"FireMode": {
+								"FireMode": "single"
+							}
+						}
+					},
+					{
+						"_id": "da202a66e25a28b9862127f6",
+						"_tpl": "pm9grip",
+						"parentId": "ddb20e95ac828b27642b073d",
+						"slotId": "mod_foregrip"
+					},
+					{
+						"_id": "fa37ad455f62ef71d47046a8",
+						"_tpl": "pm9mag",
+						"parentId": "ddb20e95ac828b27642b073d",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "de3b8ee659e9e0682c5d2b65",
+						"_tpl": "pm9bolt",
+						"parentId": "ddb20e95ac828b27642b073d",
+						"slotId": "mod_hammer"
+					},
+					{
+						"_id": "c06edc2969b21e21990a60db",
+						"_tpl": "pm9barrel",
+						"parentId": "ddb20e95ac828b27642b073d",
+						"slotId": "mod_barrel"
+					}
+				],
+				"_name": "PM9",
+				"_parent": "ddb20e95ac828b27642b073d",
+				"_type": "Preset"
+			}
+		]
+	},
+	"pm9barrel": {
+		"itemTplToClone": "603372b4da11d6478d5a07ff",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponPM9/pm9barrel.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"ExaminedByDefault": true,
+			"ExtraSizeLeft": 1,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "Minebea PM-9 9x19mm Barrel",
+				"shortName": "PM-9",
+				"description": "Standard issue 9x19mm barrel for the Minebea PM-9 submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18890,
+		"handbookPriceRoubles": 13440,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"pm9shortbarrel": {
+		"itemTplToClone": "603372b4da11d6478d5a07ff",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponPM9/pm9shortbarrel.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"ExaminedByDefault": true,
+			"ExtraSizeLeft": 0,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "Minebea PM-9 9x19mm Shortened Barrel",
+				"shortName": "PM-9",
+				"description": "Shortened 9x19mm barrel for the Minebea PM-9 submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 18890,
+		"handbookPriceRoubles": 13440,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"pm9mag": {
+		"itemTplToClone": "599860ac86f77436b225ed1a",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponPM9/pm9mag.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"Cartridges": [
+				{
+					"_id": "pm9mag_standard",
+					"_max_count": 25,
+					"_name": "cartridges",
+					"_parent": "pm9mag",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5efb0da7a29a85116f6ea05f",
+									"5c3df7d588a4501f290594e5",
+									"58864a4f2459770fcc257101",
+									"56d59d3ad2720bdb418b4577",
+									"5c925fa22e221601da359b7b",
+									"5a3c16fe86f77452b62de32a",
+									"5efb0e16aeb21837e749c7ff",
+									"5c0d56a986f774449d5de529",
+									"64b7bbb74b75259c590fa897"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 0,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.10,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.08,
+			"Ergonomics": -1
+		},
+		"locales": {
+			"en": {
+				"name": "Minebea PM-9 9x19mm 25-Round Magazine",
+				"shortName": "PM-9",
+				"description": "Standard issue 25-round 9x19mm stick magazine for the Minebea PM-9 submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"pm9extendedmag": {
+		"itemTplToClone": "599860ac86f77436b225ed1a",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponPM9/pm9extendedmag.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"Cartridges": [
+				{
+					"_id": "pm9mag_standard",
+					"_max_count": 32,
+					"_name": "cartridges",
+					"_parent": "pm9mag",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5efb0da7a29a85116f6ea05f",
+									"5c3df7d588a4501f290594e5",
+									"58864a4f2459770fcc257101",
+									"56d59d3ad2720bdb418b4577",
+									"5c925fa22e221601da359b7b",
+									"5a3c16fe86f77452b62de32a",
+									"5efb0e16aeb21837e749c7ff",
+									"5c0d56a986f774449d5de529",
+									"64b7bbb74b75259c590fa897"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 0,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.10,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.08,
+			"Ergonomics": -1
+		},
+		"locales": {
+			"en": {
+				"name": "Minebea PM-9 9x19mm 32-Round Extended Magazine",
+				"shortName": "PM-9",
+				"description": "Extended 32-round 9x19mm stick magazine for the Minebea PM-9 submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"pm9bolt": {
+		"itemTplToClone": "5e81c550763d9f754677befd",
+		"parentId": "5a74651486f7744e73386dd1",
+		"handbookParentId": "5b5f74cc86f77447ec5d770a",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponPM9/pm9bolt.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"Weight": 0.10
+		},
+		"locales": {
+			"en": {
+				"name": "Minebea PM-9 9x19mm Bolt",
+				"shortName": "PM-9",
+				"description": "Standard issue bolt for the Minebea PM-9 submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"pm9grip": {
+		"itemTplToClone": "558032614bdc2de7118b4585",
+		"parentId": "55818af64bdc2d5b648b4570",
+		"handbookParentId": "5b5f71de86f774093f2ecf13",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "WeaponPM9/pm9grip.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "Black",
+			"Weight": 0.10
+		},
+		"locales": {
+			"en": {
+				"name": "Minebea PM-9 9x19mm Foregrip",
+				"shortName": "PM-9",
+				"description": "Standard issue polymer foregrip for the Minebea PM-9 submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 3000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "playerSettings": {
+      "addHeadToPlayer": false,
+      "addVoiceToPlayer": false
+    },
+    "punisherSettings": {
+      "minimumPlayerLevelBeforeSpawn": 10,
+      "overridePunisherSpawnChance": 2
+    }
+  }
+  

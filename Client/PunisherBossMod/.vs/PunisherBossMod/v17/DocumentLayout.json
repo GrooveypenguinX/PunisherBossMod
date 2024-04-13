@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}|PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punishervoicepatch\\punishervoicepatch\\punishervoicepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}|PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj|solutionrelative:punishervoicepatch\\punishervoicepatch\\punishervoicepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44EE2498-8E4A-4F25-B533-DE4CA48E6541}|PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punisherbossmod\\punisherbossmod\\punisherboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44EE2498-8E4A-4F25-B533-DE4CA48E6541}|PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj|solutionrelative:punisherbossmod\\punisherbossmod\\punisherboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44EE2498-8E4A-4F25-B533-DE4CA48E6541}|PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punisherbossmod\\punisherbossmod\\punisherboss.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44EE2498-8E4A-4F25-B533-DE4CA48E6541}|PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj|solutionrelative:punisherbossmod\\punisherbossmod\\punisherboss.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}|PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punishervoicepatch\\punishervoicepatch\\punishervoicepatch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}|PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj|solutionrelative:punishervoicepatch\\punishervoicepatch\\punishervoicepatch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7AF367-1F27-4089-9BD5-F28321D87A32}|PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punisherbossmod\\punisherbossmodpreloader\\punisherbossmodpreloader.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DD7AF367-1F27-4089-9BD5-F28321D87A32}|PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj|solutionrelative:punisherbossmod\\punisherbossmodpreloader\\punisherbossmodpreloader.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44EE2498-8E4A-4F25-B533-DE4CA48E6541}|PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punisherbossmod\\punisherbossmod\\punisherboss.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{44EE2498-8E4A-4F25-B533-DE4CA48E6541}|PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj|solutionrelative:punisherbossmod\\punisherbossmod\\punisherboss.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}|PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punishervoicepatch\\punishervoicepatch\\punishervoicepatch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{95BA22D7-151F-4E16-AF9B-1AFEFC6D51E9}|PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj|solutionrelative:punishervoicepatch\\punishervoicepatch\\punishervoicepatch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7AF367-1F27-4089-9BD5-F28321D87A32}|PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj|q:\\spt_380\\spt_client_mods\\punisherbossmod\\punisherbossmod\\punisherbossmodpreloader\\punisherbossmodpreloader.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD7AF367-1F27-4089-9BD5-F28321D87A32}|PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj|solutionrelative:punisherbossmod\\punisherbossmodpreloader\\punisherbossmodpreloader.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PunisherVoicePatch.csproj",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "RelativeDocumentMoniker": "PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "RelativeToolTip": "PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAWwEUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T15:43:24.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PunisherVoicePatch",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "RelativeDocumentMoniker": "PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "RelativeToolTip": "PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T15:39:27.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PunisherBossModPreloader",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "RelativeDocumentMoniker": "PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "RelativeToolTip": "PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T15:38:57.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PunisherBoss",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "RelativeDocumentMoniker": "PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "RelativeToolTip": "PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T15:35:00.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PunisherVoicePatch.cs",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.cs",
+              "RelativeDocumentMoniker": "PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.cs",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.cs",
+              "RelativeToolTip": "PunisherVoicePatch\\PunisherVoicePatch\\PunisherVoicePatch.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:33:11.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PunisherBoss.cs",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossMod\\PunisherBoss.cs",
+              "RelativeDocumentMoniker": "PunisherBossMod\\PunisherBossMod\\PunisherBoss.cs",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossMod\\PunisherBoss.cs",
+              "RelativeToolTip": "PunisherBossMod\\PunisherBossMod\\PunisherBoss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:32:59.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PunisherBossModPreloader.csproj",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "RelativeDocumentMoniker": "PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "RelativeToolTip": "PunisherBossMod\\PunisherBossModPreloader\\PunisherBossModPreloader.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T15:29:32.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PunisherBoss.csproj",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "RelativeDocumentMoniker": "PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PunisherBossMod\\PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "RelativeToolTip": "PunisherBossMod\\PunisherBossMod\\PunisherBoss.csproj",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAWwD0AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T15:27:39.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

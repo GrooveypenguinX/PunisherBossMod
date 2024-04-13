@@ -1,0 +1,18 @@
+{
+    "Punisher_1": {
+        "locale": {
+            "en": {
+                "Punisher_1": "Punisher"
+            }
+        },
+        "addVoiceToPlayer": true
+    },
+    "Punisher_2": {
+        "locale": {
+            "en": {
+                "Punisher_2": "Punisher 2"
+            }
+        },
+        "addVoiceToPlayer": true
+    }
+}

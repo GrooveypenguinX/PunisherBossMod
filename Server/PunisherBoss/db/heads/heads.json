@@ -1,0 +1,20 @@
+[
+{
+    "ID": "punisherhead",
+    "Path": "heads/punisherhead.bundle",
+    "Name": "Jon Bernthal",
+    "Shortname": "JB",
+    "Description": "Are you really reading this description dumbass?",
+    "AddtoPlayer": true,
+    "Side": ["Bear", "Usec"]
+},
+{
+    "ID": "punisherhead2",
+    "Path": "heads/tomjane.bundle",
+    "Name": "Tom Jane",
+    "Shortname": "TJ",
+    "Description": "Are you really reading this description dumbass?",
+    "AddtoPlayer": true,
+    "Side": ["Bear", "Usec"]
+}
+]

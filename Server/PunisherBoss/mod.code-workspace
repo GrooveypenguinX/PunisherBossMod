@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint"
+		]
+	},
+	"settings": 
+	{
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+		"editor.formatOnType": false, // required
+		"editor.formatOnPaste": false, // optional
+		"editor.formatOnSave": false, // optional
+		"editor.formatOnSaveMode": "file", // required to format on save
+		"files.autoSave": "onFocusChange", // optional but recommended
+		"vs-code-prettier-eslint.prettierLast": false,
+		"[typescript]": {
+			"editor.defaultFormatter": "vscode.typescript-language-features"
+		},
+		"[csharp]": {
+			"editor.defaultFormatter": "csharpier.csharpier-vscode"
+		} // set as "true" to run 'prettier' last not first
+	  }
+}
